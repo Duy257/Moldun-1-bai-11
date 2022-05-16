@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let tienGui = +prompt('nhập số tiền gửi');
+        let thoiHan = +prompt('nhập số tháng muốn gửi');
+        // let tongtien = 0;
+        tienLai = 0;
+        let laisuat = 0.5;
+        for(let i = 0; i <= thoiHan; i++) {
+            tienGui = tienGui + tienLai;
+            tienLai += (tienGui/100) * 0.5; 
+
+        };
+        // tongtien = 
+        alert('tổng tiền sau ' + thoiHan + ' tháng là ' + tienGui)        
+    </script>
+</body>
+</html>
